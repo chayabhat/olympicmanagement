@@ -205,7 +205,7 @@ PreparedStatement pst=null;
         txt_sportname.setBounds(620, 230, 200, 40);
 
         btnback.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btnback.setForeground(new java.awt.Color(255, 0, 0));
+        btnback.setForeground(new java.awt.Color(255, 102, 0));
         btnback.setText("BACK");
         btnback.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -216,7 +216,7 @@ PreparedStatement pst=null;
         btnback.setBounds(520, 500, 230, 50);
 
         btnadd.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btnadd.setForeground(new java.awt.Color(255, 0, 0));
+        btnadd.setForeground(new java.awt.Color(255, 102, 0));
         btnadd.setText("ADD DETAILS");
         btnadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,7 +227,7 @@ PreparedStatement pst=null;
         btnadd.setBounds(520, 380, 230, 50);
 
         btnclear.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btnclear.setForeground(new java.awt.Color(255, 0, 0));
+        btnclear.setForeground(new java.awt.Color(255, 102, 0));
         btnclear.setText("CLEAR");
         btnclear.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -238,7 +238,7 @@ PreparedStatement pst=null;
         btnclear.setBounds(520, 440, 230, 50);
 
         r_male.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        r_male.setForeground(new java.awt.Color(255, 0, 0));
+        r_male.setForeground(new java.awt.Color(255, 102, 0));
         r_male.setText("Male");
         r_male.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -260,7 +260,7 @@ PreparedStatement pst=null;
         r_female.setBounds(730, 290, 91, 30);
 
         btn_attach.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        btn_attach.setForeground(new java.awt.Color(255, 0, 0));
+        btn_attach.setForeground(new java.awt.Color(255, 102, 0));
         btn_attach.setText("ATTACH");
         btn_attach.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -271,7 +271,7 @@ PreparedStatement pst=null;
         btn_attach.setBounds(1000, 310, 150, 40);
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 66)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel14.setForeground(new java.awt.Color(255, 102, 0));
         jLabel14.setText("ATHLETE DETAILS");
         jPanel1.add(jLabel14);
         jLabel14.setBounds(150, 30, 650, 80);
@@ -301,9 +301,9 @@ PreparedStatement pst=null;
         jPanel1.add(jDesktopPane1);
         jDesktopPane1.setBounds(890, 10, 330, 280);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\hd2.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/hd2.jpg"))); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(-350, 0, 1800, 710);
+        jLabel1.setBounds(0, 0, 1450, 700);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -56,7 +56,7 @@ PreparedStatement pst=null;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\v2.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/v3.jpg"))); // NOI18N
 
         txt_id.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
 

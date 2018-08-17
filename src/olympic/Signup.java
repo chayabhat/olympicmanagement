@@ -153,9 +153,9 @@ PreparedStatement pst;
         jPanel1.add(btnadd);
         btnadd.setBounds(260, 650, 110, 50);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\sign2.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/sign2.jpg"))); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(80, 0, 1380, 640);
+        jLabel1.setBounds(90, 0, 1230, 640);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

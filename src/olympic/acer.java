@@ -158,7 +158,7 @@ PreparedStatement pst=null;
             }
         });
         jPanel1.add(txt_search);
-        txt_search.setBounds(330, 38, 100, 30);
+        txt_search.setBounds(700, 30, 140, 30);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jButton1.setText("CLEAR");
@@ -170,9 +170,9 @@ PreparedStatement pst=null;
         jPanel1.add(jButton1);
         jButton1.setBounds(570, 593, 120, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\v5.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/v5.jpg"))); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(50, 0, 1280, 700);
+        jLabel1.setBounds(60, 0, 1220, 700);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

@@ -204,7 +204,7 @@ PreparedStatement pst;
         jPanel1.add(btn_back);
         btn_back.setBounds(700, 430, 90, 40);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\olympic8.jpg")); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/olympic8.jpg"))); // NOI18N
         jPanel1.add(jLabel8);
         jLabel8.setBounds(0, 0, 1600, 700);
 

@@ -61,6 +61,7 @@ PreparedStatement pst=null;
         txt_search = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -190,10 +191,12 @@ PreparedStatement pst=null;
         });
         jPanel1.add(jButton1);
         jButton1.setBounds(640, 570, 120, 40);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\p2.jpg")); // NOI18N
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(60, 0, 1200, 630);
+        jLabel1.setBounds(60, 0, 0, 0);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/p2.jpg"))); // NOI18N
+        jPanel1.add(jLabel8);
+        jLabel8.setBounds(90, 0, 1200, 640);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -395,6 +398,7 @@ PreparedStatement pst=null;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txt_amt;
     private javax.swing.JTextField txt_id;

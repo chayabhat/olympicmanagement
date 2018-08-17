@@ -83,10 +83,10 @@ PreparedStatement pst;
 
         jLabel5.setBackground(new java.awt.Color(255, 255, 255));
         jLabel5.setFont(new java.awt.Font("Colonna MT", 1, 70)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 0, 102));
+        jLabel5.setForeground(new java.awt.Color(255, 102, 0));
         jLabel5.setText("OLYMPIC MANAGEMENT SYSTEM");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(110, 0, 1150, 70);
+        jLabel5.setBounds(80, 10, 1490, 60);
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
@@ -102,7 +102,6 @@ PreparedStatement pst;
         jPanel1.add(jLabel2);
         jLabel2.setBounds(40, 220, 170, 30);
 
-        jPasswordField1.setBackground(new java.awt.Color(51, 255, 255));
         jPasswordField1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jPasswordField1.setCaretColor(new java.awt.Color(51, 204, 0));
         jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
@@ -114,8 +113,8 @@ PreparedStatement pst;
         jPasswordField1.setBounds(250, 220, 150, 40);
 
         btnlogin.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnlogin.setForeground(new java.awt.Color(0, 0, 204));
-        btnlogin.setText("Login");
+        btnlogin.setForeground(new java.awt.Color(255, 102, 0));
+        btnlogin.setText("LOGIN");
         btnlogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnloginActionPerformed(evt);
@@ -126,8 +125,8 @@ PreparedStatement pst;
 
         btnsign.setBackground(new java.awt.Color(255, 255, 255));
         btnsign.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnsign.setForeground(new java.awt.Color(0, 0, 204));
-        btnsign.setText("Signup");
+        btnsign.setForeground(new java.awt.Color(255, 102, 0));
+        btnsign.setText("SIGN UP");
         btnsign.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnsignActionPerformed(evt);
@@ -137,17 +136,17 @@ PreparedStatement pst;
         btnsign.setBounds(390, 320, 120, 40);
 
         btnforget.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnforget.setForeground(new java.awt.Color(0, 0, 204));
-        btnforget.setText("Forget Password");
+        btnforget.setForeground(new java.awt.Color(255, 102, 0));
+        btnforget.setText("FORGET PASSWORD");
+        btnforget.setActionCommand("FORGOT PASSWORD");
         btnforget.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnforgetActionPerformed(evt);
             }
         });
         jPanel1.add(btnforget);
-        btnforget.setBounds(200, 420, 190, 40);
+        btnforget.setBounds(200, 420, 230, 40);
 
-        jTextField2.setBackground(new java.awt.Color(51, 255, 255));
         jTextField2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,7 +157,7 @@ PreparedStatement pst;
         jTextField2.setBounds(250, 130, 150, 40);
 
         jLabel4.setBackground(new java.awt.Color(51, 51, 51));
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\stadium4.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/stadium4.jpg"))); // NOI18N
         jPanel1.add(jLabel4);
         jLabel4.setBounds(0, 0, 1570, 920);
 

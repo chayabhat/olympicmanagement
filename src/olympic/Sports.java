@@ -63,65 +63,63 @@ PreparedStatement pst=null;
         jLabel8 = new javax.swing.JLabel();
         txt_search = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(null);
 
-        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel2.setBackground(new java.awt.Color(255, 102, 0));
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 102));
-        jLabel2.setText("ID");
+        jLabel2.setForeground(new java.awt.Color(255, 102, 0));
+        jLabel2.setText("ATHELETE ID");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(200, 100, 50, 30);
+        jLabel2.setBounds(180, 100, 170, 30);
 
-        jLabel3.setBackground(new java.awt.Color(255, 102, 255));
+        jLabel3.setBackground(new java.awt.Color(255, 102, 0));
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel3.setForeground(new java.awt.Color(255, 102, 0));
         jLabel3.setText("NAME");
         jPanel1.add(jLabel3);
         jLabel3.setBounds(180, 190, 80, 30);
 
-        jLabel4.setBackground(new java.awt.Color(255, 102, 255));
+        jLabel4.setBackground(new java.awt.Color(255, 102, 0));
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 102));
+        jLabel4.setForeground(new java.awt.Color(255, 102, 0));
         jLabel4.setText("SPORT");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(180, 270, 90, 30);
 
-        jLabel5.setBackground(new java.awt.Color(255, 102, 255));
+        jLabel5.setBackground(new java.awt.Color(255, 102, 0));
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 153));
+        jLabel5.setForeground(new java.awt.Color(255, 102, 0));
         jLabel5.setText("HEIGHT");
         jPanel1.add(jLabel5);
         jLabel5.setBounds(820, 90, 110, 30);
 
-        jLabel6.setBackground(new java.awt.Color(255, 102, 255));
+        jLabel6.setBackground(new java.awt.Color(255, 102, 0));
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(51, 51, 255));
+        jLabel6.setForeground(new java.awt.Color(255, 102, 0));
         jLabel6.setText("WEIGHT");
         jPanel1.add(jLabel6);
         jLabel6.setBounds(820, 180, 110, 30);
 
-        jLabel7.setBackground(new java.awt.Color(255, 102, 255));
+        jLabel7.setBackground(new java.awt.Color(255, 102, 0));
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 0, 153));
+        jLabel7.setForeground(new java.awt.Color(255, 102, 0));
         jLabel7.setText("DIVISION");
         jPanel1.add(jLabel7);
         jLabel7.setBounds(820, 260, 130, 30);
 
-        txt_id.setBackground(new java.awt.Color(255, 153, 204));
         txt_id.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txt_id.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         jPanel1.add(txt_id);
-        txt_id.setBounds(330, 100, 170, 40);
+        txt_id.setBounds(380, 100, 170, 40);
 
-        txt_name.setBackground(new java.awt.Color(255, 153, 204));
         txt_name.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jPanel1.add(txt_name);
-        txt_name.setBounds(330, 180, 170, 40);
+        txt_name.setBounds(380, 180, 170, 40);
 
-        txt_height.setBackground(new java.awt.Color(255, 153, 204));
         txt_height.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txt_height.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +129,6 @@ PreparedStatement pst=null;
         jPanel1.add(txt_height);
         txt_height.setBounds(980, 90, 150, 40);
 
-        txt_weight.setBackground(new java.awt.Color(255, 153, 204));
         txt_weight.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txt_weight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -141,7 +138,6 @@ PreparedStatement pst=null;
         jPanel1.add(txt_weight);
         txt_weight.setBounds(980, 170, 150, 40);
 
-        txt_div.setBackground(new java.awt.Color(255, 153, 204));
         txt_div.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         txt_div.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -206,7 +202,7 @@ PreparedStatement pst=null;
             }
         });
         jPanel1.add(cob1);
-        cob1.setBounds(330, 260, 170, 40);
+        cob1.setBounds(380, 260, 170, 40);
 
         btnclear.setBackground(new java.awt.Color(240, 0, 0));
         btnclear.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
@@ -231,24 +227,27 @@ PreparedStatement pst=null;
             }
         });
         jPanel1.add(txt_search);
-        txt_search.setBounds(700, 20, 110, 40);
+        txt_search.setBounds(700, 20, 200, 40);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\user\\Downloads\\photos\\Sports1.jpg")); // NOI18N
         jLabel1.setNextFocusableComponent(jLabel1);
         jLabel1.setOpaque(true);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(70, 0, 1200, 600);
+        jLabel1.setBounds(70, 0, 0, 0);
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/olympic/images/athlete4.jpg"))); // NOI18N
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(0, 0, 1920, 1200);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1604, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 689, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -484,6 +483,7 @@ PreparedStatement pst=null;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField txt_div;
     private javax.swing.JTextField txt_height;
